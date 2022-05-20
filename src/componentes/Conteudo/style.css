@@ -1,0 +1,53 @@
+.conteudo {
+  margin-top: 80px;
+}
+.container {
+  background-color: #1d3371;
+  color: white;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.texto h1 {
+  color: #ffb74e;
+}
+
+.vantagens {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;;
+  height: 100%;
+  width: 80%;
+}
+
+.vantagens div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.beneficios {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.clientes {
+ display: flex;
+ align-items: center;
+  margin: 100px;
+}
+
+.clientes img {
+  border-radius: 100%;
+  max-width: 50%;
+}
+
+
+.btn a {
+  background-color: #1d3371;
+  text-decoration: none;
+  color: white;
+  padding: 10px 10px;
+}

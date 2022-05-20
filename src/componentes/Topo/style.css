@@ -1,0 +1,32 @@
+.topo {
+  width: 100%;
+  background-color: #1d3371;
+  border-bottom: 2px solid white;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 4%;
+}
+.logo h1 {
+  width: 300px;
+}
+
+.link {
+  display: flex;
+  margin-right: 4%;
+  gap: 10%;
+}
+.link a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+}
